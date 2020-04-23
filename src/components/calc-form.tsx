@@ -54,7 +54,7 @@ class CalcForm extends React.Component<UserFormProps, UserFormState>
         return (
             <Form>
                 <FormGroup>
-                    <Label>First Number</Label>
+                    <Label for="number1">First Number</Label>
                     <Input
                         type='number'
                         onChange={this.handleInput1Change}
@@ -62,7 +62,7 @@ class CalcForm extends React.Component<UserFormProps, UserFormState>
                     ></Input>
                 </FormGroup>
                 <FormGroup>
-                    <Label>Second Number</Label>
+                    <Label for="number2">Second Number</Label>
                     <Input
                         type='number'
                         onChange={this.handleInput2Change}
